@@ -6,3 +6,4 @@ on:
 jobs:
   release:
     uses: belgif/workflows/.github/workflows/openapi-release-workflow.yml@main
+    secrets: inherit
