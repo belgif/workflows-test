@@ -1,0 +1,8 @@
+name: openapi-maven-release
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  release:
+    uses: belgif/workflows/.github/workflows/openapi-release-workflow.yml@main

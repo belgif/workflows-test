@@ -1,0 +1,9 @@
+name: openapi-maven-ci
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    uses: belgif/workflows/.github/workflows/openapi-ci-workflow.yml@main
