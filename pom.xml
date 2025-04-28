@@ -62,6 +62,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<publishingServerId>central</publishingServerId>
+					<deploymentName>${project.artifactId}</deploymentName>
 				</configuration>
 			</plugin>
 		</plugins>
